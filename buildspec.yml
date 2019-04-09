@@ -1,4 +1,9 @@
 version: 0.1
+
+env:
+  variables:
+    DeployBucket: "cognibank"
+
 phases:
   pre_build:
     commands:
